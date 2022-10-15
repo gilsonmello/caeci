@@ -3,6 +3,9 @@ var beginTabIndex = 10;
 var currentTabIndex = beginTabIndex - 1;
 var focused_components = [];
 
+
+const [body] = document.getElementsByTagName('body');
+
 function nextTabIndex() {
 	currentTabIndex++;
 	if (currentTabIndex > 118 + beginTabIndex) {
@@ -56,8 +59,8 @@ function loadPage () {
 	// sleep(4000);
 
 	// hide loading page
-	loading_page.style.display = 'none';
-	periodic_table.style.display = 'block';
+	// loading_page.style.display = 'none';
+	// periodic_table.style.display = 'block';
 }
 
 // function OnFocusOut() {
@@ -217,7 +220,8 @@ const dialog = document.getElementById("Dialog"); // Get element.
 const content = document.getElementById("DialogContent");
 
 function show_dialog(information){
-	dialog.style.visibility = "visible";
+	body.style.overflow = 'hidden';
+	dialog.style.display = "flex";
 	content.innerHTML= information;
 }
 
@@ -228,7 +232,8 @@ function show_instructions() {
 }
 
 function hide_dialog(){
-	dialog.style.visibility = "hidden";
+	body.style.overflow = 'auto';
+	dialog.style.display = "none";
 }
 
 function clicked (conteudo, element) {
@@ -237,13 +242,13 @@ function clicked (conteudo, element) {
 	let palavras = copiaConteudo.split(",");
 	if (palavras[1] == "Especial" || palavras[1] == "Especial-2" || palavras[1] == "Especial-3"){return;}
 	if (element == true) {
-		if (dialog.style.visibility=='visible'){
+		if (dialog.style.display == 'flex') {
 			hide_dialog();
 		} else {
 			show_dialog(conteudo);
 		}
 	} else {
-		if (dialog.style.visibility=='visible'){
+		if (dialog.style.display == 'flex') {
 			hide_dialog();
 		} else {
 			show_instructions();
