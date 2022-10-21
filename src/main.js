@@ -78,7 +78,7 @@ function loadPage () {
 // }
 
 class Element {
-	constructor (number, symbol, name, x, y, family,family2,acronym, at_mass) {
+	constructor (number, symbol, name, x, y, family,family2,acronym, at_mass, valency) {
 		this.number	= number;
 		this.symbol	= symbol;
 		this.name	= name;
@@ -88,9 +88,10 @@ class Element {
 		this.family2	= family2;
 		this.acronym = acronym;
 		this.mass	= at_mass;
+		this.valency =valency;
 	}
 
-	get_information = ()=> `clicked ('${this.name}, ${this.family},<Br>${this.family2}, <Br> Símbolo: ${this.acronym}, <Br> Número atômico: ${this.number}, <Br> Massa atômica: ${this.mass}', true)`;
+	get_information = ()=> `clicked ('${this.name}, ${this.family},<Br>${this.family2}, <Br> Símbolo: ${this.acronym}, <Br> Número atômico: ${this.number}, <Br> Configuração de Valência: ${this.valency}, <Br> Massa atômica: ${this.mass}', true)`;
 
 	get_number	= ()=> `<spam class='number'>${this.number}</spam>`;
 	get_symbol	= ()=> `<spam class='symbol'>${this.symbol}</spam>`;
@@ -193,8 +194,9 @@ function format (raw) {
 			family	= prop[6];
 			family2= prop[7];
 			acronym= prop[8]
-			at_mass	= prop[9];		
-		let	element	= new Element (number, symbol, name, x_pos, y_pos, family, family2, acronym, at_mass);
+			at_mass	= prop[9];
+			valency=	prop[10]	
+		let	element	= new Element (number, symbol, name, x_pos, y_pos, family, family2, acronym, at_mass, valency);
 		all_elements.push (element)
 	})
 	organize_lines (all_elements);
