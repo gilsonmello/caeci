@@ -82,7 +82,9 @@ sup {
 }
 
 .hidden-char {
-	display: none;
+	width: 0px;
+	height: 0px;
+	font-size: 0;
 }
 
 .Indefinido {
