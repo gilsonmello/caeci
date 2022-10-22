@@ -81,8 +81,12 @@ th {
 	background-color: burlywood;
 }
 
-.Ametal {
+.Não.metal {
 	background-color: aliceblue;
+}
+
+sup {
+	font-size: 70%;
 }
 
 .Indefinido {
