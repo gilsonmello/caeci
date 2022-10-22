@@ -65,11 +65,11 @@
 ;	 ;	  ;	Fora de tabela ;10 ;4	;Especial-3	;									;	  ;	;;
 ;	 ;	  ;	Fora de tabela ;11 ;4	;Especial-3	;									;	  ;	;;
 ;	 ;	  ;	Fora de tabela ;12 ;4	;Especial-3	;									;	  ;	;;
-;13 ;A<span class="special-l">l</span> ;Alumínio       ;13 ;4	;Metal			;Grupo 13, Terceiro período	;A-<span class="special-l">l</span> ;27,0;3p<sup>1</sup>;
+;13 ;Al ;Alumínio       ;13 ;4	;Metal			;Grupo 13, Terceiro período	;A-<span class="special-l">l</span> ;27,0;3p<sup>1</sup>;
 ;14 ;Si ;Silício        ;14 ;4	;Não metal		;Grupo 14, Terceiro período	;S-i ;28,1;3p<sup>2</sup>;
 ;15 ;P  ;Fósforo        ;15 ;4	;Não metal		;Grupo 15, Terceiro período	;P   ;31,0;3p<sup>3</sup>;
 ;16 ;S  ;Enxofre        ;16 ;4	;Não metal		;Grupo 16, Terceiro período	;S   ;32,0;3p<sup>4</sup>;
-;17 ;C<span class="special-l">l</span> ;Cloro          ;17 ;4	;Não metal		;Grupo 17, Terceiro período	;C-<span class="special-l">l</span> ;35,5;3p<sup>5</sup>;
+;17 ;Cl ;Cloro          ;17 ;4	;Não metal		;Grupo 17, Terceiro período	;C-<span class="special-l">l</span> ;35,5;3p<sup>5</sup>;
 ;18 ;Ar ;Argônio        ;18 ;4	;Não metal		;Grupo 18, Terceiro período	;A-r ;39,5;3p<sup>6</sup>;
 ;19 ;K  ;Potássio       ;1  ;5	;Metal			;Grupo 1, Quarto período		;K   ;39,1;4s<sup>1</sup>;
 ;20 ;Ca ;Cálcio         ;2  ;5	;Metal			;Grupo 2, Quarto período		;C-a ;40,1;4s<sup>2</sup>;
@@ -121,7 +121,7 @@
 ;78 ;Pt ;Platina        ;10 ;7	;Metal			;Grupo 10, Sexto período		;P-t ;195,1;5d<sup>8</sup>;
 ;79 ;Au ;Ouro           ;11 ;7	;Metal			;Grupo 11, Sexto período		;A-u ;197,0;5d<sup>9</sup>;
 ;80 ;Hg ;Mercúrio       ;12 ;7	;Metal			;Grupo 12, Sexto período		;H-g ;200,6;5d<sup>10</sup>;
-;81 ;T<span class="special-l">l</span> ;Tálio          ;13 ;7	;Metal			;Grupo 13, Sexto período		;T-<span class="special-l">l</span> ;204,4;6p<sup>1</sup>;
+;81 ;Tl ;Tálio          ;13 ;7	;Metal			;Grupo 13, Sexto período		;T-<span class="special-l">l</span> ;204,4;6p<sup>1</sup>;
 ;82 ;Pb ;Chumbo         ;14 ;7	;Metal			;Grupo 14, Sexto período		;P-b ;207,2;6p<sup>2</sup>;
 ;83 ;Bi ;Bismuto        ;15 ;7	;Metal			;Grupo 15, Sexto período		;B-i ;209,0;6p<sup>3</sup>;
 ;84 ;Po ;Polônio        ;16 ;7	;Não metal		;Grupo 16, Sexto período		;P-o ;209,0;6p<sup>4</sup>;
@@ -146,7 +146,7 @@
 ;111 ;Rg ;Roentgênio    ;11 ;8 ;Indefinido	;Grupo 11, Sétimo período		;R-g ;282,0;6d<sup>9</sup>;
 ;112 ;Cn ;Copernício    ;12 ;8 ;Indefinido	;Grupo 12, Sétimo período		;C-n ;285,0;6d<sup>10</sup>;
 ;113 ;Nh ;Nihônio       ;13 ;8 ;Indefinido	;Grupo 13, Sétimo período		;N-h ;286,0;7p<sup>1</sup>;
-;114 ;F<span class="special-l">l</span> ;Fleróvio      ;14 ;8 ;Indefinido	;Grupo 14, Sétimo período		;F-<span class="special-l">l</span> ;290,0;7p<sup>2</sup>;
+;114 ;Fl ;Fleróvio      ;14 ;8 ;Indefinido	;Grupo 14, Sétimo período		;F-<span class="special-l">l</span> ;290,0;7p<sup>2</sup>;
 ;115 ;Mc ;Moscóvio      ;15 ;8 ;Indefinido	;Grupo 15, Sétimo período		;M-c ;290,0;7p<sup>3</sup>;
 ;116 ;Lv ;Livermório    ;16 ;8 ;Indefinido	;Grupo 16, Sétimo período		;L-v ;293,0;7p<sup>4</sup>;
 ;117 ;Ts ;Tennesso      ;17 ;8 ;Indefinido	;Grupo 17, Sétimo período		;T-s ;294,0;7p<sup>5</sup>;
