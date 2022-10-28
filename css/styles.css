@@ -89,6 +89,15 @@ sup {
 	font-size: 70%;
 }
 
+.special-l {
+	font-family: Sofia;
+	font-size: 80%;
+}
+
+.hidden-char {
+	font-size: 0;
+}
+
 .Indefinido {
 	background-color: antiquewhite;
 }
