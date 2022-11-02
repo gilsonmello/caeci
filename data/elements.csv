@@ -68,10 +68,10 @@
 ;13 ;A<span class="special-l">l</span> ;Alumínio       ;13 ;4	;Metal			;Grupo 13, Terceiro período	;A<span class=hidden-char>-</span><span class=special-l>l</span> ;27,0;3p<sup>1</sup>;
 ;14 ;Si ;Silício        ;14 ;4	;Não metal		;Grupo 14, Terceiro período	;S<span class=hidden-char>-</span>i ;28,1;3p<sup>2</sup>;
 ;15 ;P  ;Fósforo        ;15 ;4	;Não metal		;Grupo 15, Terceiro período	;P   ;31,0;3p<sup>3</sup>;
-;16 ;S  ;Enxofre        ;16 ;4	;Não metal		;Grupo 16, Terceiro período	;S   ;32,0;3p<sup>4</sup>;
-;17 ;C<span class="special-l">l</span> ;Cloro          ;17 ;4	;Não metal		;Grupo 17, Terceiro período	;C<span class=hidden-char>-</span><span class=special-l>l</span> ;35,5;3p<sup>5</sup>;
-;18 ;Ar ;Argônio        ;18 ;4	;Não metal		;Grupo 18, Terceiro período	;A<span class=hidden-char>-</span>r ;39,5;3p<sup>6</sup>;
-;19 ;K  ;Potássio       ;1  ;5	;Metal			;Grupo 1, Quarto período		;K   ;39,1;4s<sup>1</sup>;
+;16 ;S  ;Enxofre;16 ;4	;Não metal;Grupo 16, Terceiro período;S;32,0;3p<sup>4</sup>;
+;17 ;C<span class="special-l">l</span>;Cloro;17 ;4	;Não metal;Grupo 17, Terceiro período;C<span class=hidden-char>-</span><span class=special-l>l</span> ;35,5;3p<sup>5</sup>;
+;18 ;Ar ;Argônio;18 ;4	;Não metal;Grupo 18, Terceiro período;A<span class=hidden-char>-</span>r;39,5;3p<sup>6</sup>;
+;19 ;K  ;Potássio;1  ;5	;Metal;Grupo 1, Quarto período;K;39,1;4s<sup>1</sup>;
 ;20 ;Ca ;Cálcio;2  ;5	;Metal;Grupo 2, Quarto período;C<span class=hidden-char>-</span>a;40,1;4s<sup>2</sup>;
 ;21 ;Sc ;Escândio       ;3  ;5	;Metal			;Grupo 3, Quarto período		;S<span class=hidden-char>-</span>c ;45,0;3d<sup>1</sup>;
 ;22 ;Ti ;Titânio        ;4  ;5	;Metal			;Grupo 4, Quarto período		;T<span class=hidden-char>-</span>i ;47,9;3d<sup>2</sup>;
