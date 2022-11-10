@@ -94,7 +94,7 @@ class Element {
 		this.valency =valency;
 	}
 
-	get_information = ()=> `clicked ('${this.name}, ${this.family},<Br>${this.family2}, <Br> Símbolo: ${this.acronym}, <Br> Número atômico: ${this.number}, <Br> Configuração de Valência: ${this.valency}, <Br> Massa atômica: ${this.mass}', true)`;
+	get_information = ()=> `clicked ('${this.name}, ${this.family},<Br>${this.family2},<Br>Símbolo: ${this.acronym},<Br>Número atômico: ${this.number},<Br> Configuração de Valência: ${this.valency},<Br> Massa atômica: ${this.mass}', true)`;
 
 	get_number	= ()=> `<spam class='number'>${this.number}</spam>`;
 	get_symbol	= ()=> `<spam class='symbol'>${this.symbol}</spam>`;
